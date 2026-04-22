@@ -28,6 +28,7 @@ Public skill libraries are used as realism seeds for naming conventions, metadat
 ## Current candidate skill families
 
 - reading / research
+- news / monitoring
 - reply / messaging
 - email / communication
 - planning / meetings
