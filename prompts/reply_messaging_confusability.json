@@ -1,0 +1,52 @@
+[
+  {
+    "id": "reply_p1_professor_reply",
+    "family": "reply_messaging",
+    "gold_skill": "professor-email-reply",
+    "closest_alternatives": [
+      "reply-drafter",
+      "reply-polisher"
+    ],
+    "prompt": "Draft a reply to this message from my professor: 'Hi Jacky, thanks for your update. Would you be available to meet next Tuesday afternoon to discuss the revised thesis scope? Please let me know what time suits you best.'"
+  },
+  {
+    "id": "reply_p2_polish_supervisor",
+    "family": "reply_messaging",
+    "gold_skill": "reply-polisher",
+    "closest_alternatives": [
+      "professor-email-reply",
+      "reply-drafter"
+    ],
+    "prompt": "Refine this draft reply so it sounds more professional for my supervisor, but keep the same meaning and commitments: 'Hi, Tuesday should be okay. I can probably do sometime after lunch. Let me know.'"
+  },
+  {
+    "id": "reply_p3_groupwork_coordination",
+    "family": "reply_messaging",
+    "gold_skill": "groupwork-reply",
+    "closest_alternatives": [
+      "reply-drafter",
+      "followup-reply-writer"
+    ],
+    "prompt": "Draft a reply to this group message: 'Hey everyone, we need to lock in who is doing the slides, who is writing the report section, and whether we can still meet the Friday deadline. Can each of you confirm what you can finish by tomorrow?'"
+  },
+  {
+    "id": "reply_p4_followup_commitment",
+    "family": "reply_messaging",
+    "gold_skill": "followup-reply-writer",
+    "closest_alternatives": [
+      "reply-drafter",
+      "groupwork-reply"
+    ],
+    "prompt": "Reply to this message with what I will do next and when: 'Thanks for sending this through. Could you confirm which parts you will revise, and when you expect to have the updated draft ready?'"
+  },
+  {
+    "id": "reply_p5_generic_fresh_draft",
+    "family": "reply_messaging",
+    "gold_skill": "reply-drafter",
+    "closest_alternatives": [
+      "reply-polisher",
+      "followup-reply-writer"
+    ],
+    "prompt": "Draft a concise reply to this message confirming that I will send the revised version tomorrow: 'Thanks for the update. Could you send me the revised version by tomorrow if possible?'"
+  }
+]

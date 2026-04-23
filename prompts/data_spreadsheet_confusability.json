@@ -1,0 +1,79 @@
+[
+  {
+    "id": "data_p1_overview",
+    "family": "data_spreadsheet",
+    "gold_skill": "data-analysis-overview",
+    "closest_alternatives": [
+      "data-analysis-for-reporting",
+      "data-analysis-with-anomaly-focus",
+      "data-analysis-with-validation"
+    ],
+    "prompt": "Please read `/workspace/fixtures/data_spreadsheet/channel_performance_weekly.csv`. I need to get oriented on this sheet and say something useful about it to the team."
+  },
+  {
+    "id": "data_p2_anomaly_focus",
+    "family": "data_spreadsheet",
+    "gold_skill": "data-analysis-with-anomaly-focus",
+    "closest_alternatives": [
+      "data-analysis-overview",
+      "data-analysis-for-root-cause-diagnosis",
+      "data-analysis-with-validation"
+    ],
+    "prompt": "Please read `/workspace/fixtures/data_spreadsheet/channel_performance_weekly.csv`. What here looks most worth worrying about, and how confident should I be that it is real?"
+  },
+  {
+    "id": "data_p3_validation",
+    "family": "data_spreadsheet",
+    "gold_skill": "data-analysis-with-validation",
+    "closest_alternatives": [
+      "data-analysis-overview",
+      "data-analysis-with-anomaly-focus",
+      "data-analysis-for-root-cause-diagnosis"
+    ],
+    "prompt": "Please read `/workspace/fixtures/data_spreadsheet/channel_performance_weekly.csv`. Before I react to it, help me tell the difference between a genuine problem and something in the sheet that I should not trust yet."
+  },
+  {
+    "id": "data_p4_root_cause",
+    "family": "data_spreadsheet",
+    "gold_skill": "data-analysis-for-root-cause-diagnosis",
+    "closest_alternatives": [
+      "data-analysis-with-anomaly-focus",
+      "data-analysis-overview",
+      "data-analysis-with-validation"
+    ],
+    "prompt": "Please read `/workspace/fixtures/data_spreadsheet/channel_performance_weekly.csv`. This seems to be getting worse, but I am not sure if that is a genuine performance problem or something misleading in the data."
+  },
+  {
+    "id": "data_p5_reporting",
+    "family": "data_spreadsheet",
+    "gold_skill": "data-analysis-for-reporting",
+    "closest_alternatives": [
+      "data-analysis-overview",
+      "data-analysis-for-root-cause-diagnosis",
+      "data-analysis-with-anomaly-focus"
+    ],
+    "prompt": "Please read `/workspace/fixtures/data_spreadsheet/channel_performance_weekly.csv`. I need to say something useful about this upward, not just to myself, and I do not want to drag someone through the whole sheet."
+  },
+  {
+    "id": "data_p6_forecasting",
+    "family": "data_spreadsheet",
+    "gold_skill": "data-analysis-for-forecasting",
+    "closest_alternatives": [
+      "data-analysis-overview",
+      "data-analysis-for-root-cause-diagnosis",
+      "data-analysis-with-anomaly-focus"
+    ],
+    "prompt": "Please read `/workspace/fixtures/data_spreadsheet/channel_performance_weekly.csv`. If the current pattern keeps going, what do you think happens next, and how much should I trust that read?"
+  },
+  {
+    "id": "data_p7_ranking_selection",
+    "family": "data_spreadsheet",
+    "gold_skill": "data-analysis-for-ranking-selection",
+    "closest_alternatives": [
+      "data-analysis-overview",
+      "data-analysis-for-reporting",
+      "data-analysis-for-forecasting"
+    ],
+    "prompt": "Please read `/workspace/fixtures/data_spreadsheet/pilot_priority_options.csv`. If we had to act on this table now, where would you lean first and what would you expect next?"
+  }
+]
